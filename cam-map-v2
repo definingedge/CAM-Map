@@ -1,4 +1,11 @@
-<script>
+
+        <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyCrh7WRwUUGFVxnP-K1G5qUyZMR06BvUQo&extension=.js"></script>
+        <script src="//cdn.mapkit.io/v1/infobox.js"></script>
+        <link href="//fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+        <link href="//cdn.mapkit.io/v1/infobox.css" rel="stylesheet" >
+
+
+        <script>
           google.maps.event.addDomListener(window, 'load', init);
             var map, markersArray = [];
             function bindInfoWindow(marker, map, location) {
@@ -159,3 +166,13 @@
             
             }
         </script>
+
+        <style>
+          #mapkit-1469 {
+            height: 400px;
+            width: 600px;
+          }
+        </style>
+
+        <div id="mapkit-1469"></div>
+        
